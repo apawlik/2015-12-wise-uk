@@ -11,7 +11,7 @@ humantime: 9:30 am - 5:30 pm  # human-readable time (e.g., "9:00 am - 4:30 pm")
 startdate: 2015-12-14 
 enddate: 2015-12-15   
 instructor: ["Aleksandra Pawlik", "Aleksandra Nenadic"] 
-helper: [ "Clair Barrass",  "Simone Di Cola","Suzanne M. Embury", "Toni Collis", "Mireya Paredes", "Sebastian Werner",]    
+helper: [ "Clair Barrass",  "Simone Di Cola","Suzanne M. Embury", "Toni Collis", "Mireya Paredes"]    
 contact: admin-uk@software-carpentry   # contact email address for workshop organizer, such as "grace@hopper.org"
 etherpad:         # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
@@ -52,7 +52,9 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 </p>
 
 
-
+<div class="alert"> <span style="font-size: 14pt;">For communication we will be using this Etherpad:
+<a href="http://pad.software-carpentry.org/2015-12-14-wise-uk">
+	http://pad.software-carpentry.org/2015-12-14-wise-uk</a> </span></div>
 
 <!--
   LOCATION
@@ -107,24 +109,29 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 
 
 <h2>Sponsors</h2>
-<p>The workshop has been made possible thanks to the generous support from <a href="http://www.intel.co.uk/">Intel</a> and
-<a href="http://www.bofaml.com/content/boaml/en_us/home.html">Bank of America Merrill Lynch</a>.  
+<p>The workshop has been made possible thanks to the generous support from <a href="http://www.intel.co.uk/">Intel</a>,
+<a href="http://www.bofaml.com/content/boaml/en_us/home.html">Bank of America Merrill Lynch</a> and
+  <a href="http://elixir-uk.org">ELIXIR-UK</a>.
 We are grateful for their support, and look forward to the event.</p>
 
 <div class="row">
-  <div class="col-sm-4" style="padding-bottom:15px; padding-left:20px; width:50%; height: 180px; margin: 0 auto;">
+  <div class="col-sm-4" style="padding: 0px 25px 0px 25px; text-align:left;">
     <a href="http://www.intel.co.uk/"><img src="img/intel-logo.jpg" alt="Intel logo" style="height:120px"/></a>
   </div>
-  <div class="col-sm-4" style="padding-bottom:15px; width: 50%; height: 180px; margin: 0 auto;">
+  <div class="col-sm-4" style="padding: 0px 25px 0px 25px; text-align: center;">
     <a href="http://www.bofaml.com/content/boaml/en_us/home.html">
     	<img src="img/merill_lynch_logo.jpg" alt="Merill Lynch logo" style="height:120px"/></a>
   </div>
+  <div class="col-sm-4" style="padding: 0px 25px 0px 25px; text-align: right;">
+    <a href="http://elixir-uk.org">
+    	<img src="http://www.elixir-europe.org/system/files/styles/medium/private/250-elixir_uk_node_logo.png?itok=KIeak5bi" alt="ELIXIR-UK logo" style="height:120px"/></a>
+  </div>  
 </div>
 
 
 
 
-<h3>The organisers</h3>
+<h2>The organisers</h2>
 <p>
   <a href="http://www.womeninhpc.org.uk/">Women in HPC </a>aims to increase participation of women in the HPC community 
   by providing people with the opportunities to find out about HPC technology 
@@ -136,7 +143,7 @@ We are grateful for their support, and look forward to the event.</p>
   women in the HPC community.
 </p>
 <p>
-  The <a href="http://www.software.ac.uk">Software Sustanability Institute</a>'s 
+  The <a href="http://www.software.ac.uk">Software Sustainability Institute</a>'s
   mission is to cultivate better, more sustainable, research software to enable
   world-class research (<a href="http://softwaresaved.spreadshirt.co.uk/"><em>
 better software, better research</em></a>). 
@@ -150,6 +157,11 @@ Software is fundamental to research:
   high-performance computing to scientists and researchers across the
   UK. As part of our training service we are running a two-day Data
   Carpentry workshop.	
+</p>
+<p>
+ <a href="http://elixir-uk.org">ELIXIR-UK</a>, a part of the ELIXIR project community, is taking a UK and European lead in training, 
+ as well as co-leading the ELIXIR platform for integration and interoperability of data and services. 
+ in order to facilitate access to data infrastructure and training for scientists in both academia and industry.
 </p>
 
 <!--
@@ -175,11 +187,13 @@ Software is fundamental to research:
     <h3>Day 1 - Atlas 1&2 rooms</h3>
     <table class="table table-striped">
       <tr> <td>09:30</td>  <td>Welcome and setup</td> </tr>
-      <tr> <td>10:00</td> <td>Automating tasks with the Unix shell part 1</td> </tr>
+      <tr> <td>10:00</td> <td>Automating tasks with the Unix shell part 1 
+      <a href="http://swcarpentry.github.io/shell-novice/"> Materials </a></td> </tr>
       <tr> <td>11:00</td> <td>Coffee</td> </tr>
       <tr> <td>11:30</td> <td>Automating tasks with the Unix shell part 2</td> </tr>
       <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:30</td>  <td>Structured programming with Python part 1</td> </tr>
+      <tr> <td>13:30</td>  <td>Structured programming with Python part 1
+      <a href="http://swcarpentry.github.io/python-novice-inflammation/">Materials </a></td> </tr>
       <tr> <td>15:00</td>  <td>Coffee</td> </tr>
       <tr> <td>15:30</td>  <td>Structured programming with Python part 2</td> </tr>
       <tr> <td>17:15</td>  <td>Panel discussion</td> </tr>
@@ -190,43 +204,21 @@ Software is fundamental to research:
   <div class="col-md-6">
     <h3>Day 2- Collab1 room</h3>
     <table class="table table-striped">
-      <tr> <td>09:30</td>  <td>Recap after day 1</td> </tr>
-      <tr> <td>10:00</td>  <td>Version control with Git part 1</td> </tr>
+      <tr> <td>09:30</td>  <td>Python functions and modules</td> </tr>
       <tr> <td>11:00</td>  <td>Coffee</td> </tr>
-      <tr> <td>11:30</td>  <td>Version control with Git part 2</td> </tr>
+      <tr> <td>11:30</td>  <td>Version control with Git part 1
+      <a href="http://swcarpentry.github.io/git-novice/"> Materials</a></td> </tr>
       <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:30</td>  <td>Working collaboratively in GitHub</td> </tr>
+      <tr> <td>13:30</td>  <td>Version control with Git part 2 </td> </tr>
       <tr> <td>15:00</td>  <td>Coffee</td> </tr>
-      <tr> <td>15:30</td>  <td>Quality assurance and testing in Python</td> </tr>
+      <tr> <td>15:30</td>  <td>Working collaboratively in GitHub </td> </tr>
       <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
       <tr> <td>17:30</td>  <td>Close</td> </tr>
     </table>
   </div>
 </div>
 
-<!--
-  ETHERPAD
 
-  At `_misc/etherpad.txt` you will find a template for the etherpad.
-
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://etherpad.mozilla.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop (e.g.,
-  '2015-06-10-esu'.
--->
-{% if page.etherpad %}
-<p>
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-{% endif %}
-
-<hr/>
 
 <!--
   SYLLABUS

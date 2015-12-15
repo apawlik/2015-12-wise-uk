@@ -3,7 +3,6 @@
 import numpy
 
 def detect_problems(filename):
-    #one more line here
     data = numpy.loadtxt(fname=filename, delimiter=",")
     if data.max(axis=0)[-1] == 20:
         print("Something is wrong with the maxima")
